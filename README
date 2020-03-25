@@ -1,0 +1,7 @@
+* Comandos Knex
+
+** Criar Arquivo Migrations
+--- npx knex migrate:make create_ongs
+
+*** Executar Migrations
+--- npx knex migrate:latest
