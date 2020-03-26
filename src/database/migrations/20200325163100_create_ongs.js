@@ -7,9 +7,9 @@ exports.up = function(knex) {
     table.string('city').notNullable();
     table.string('uf', 2).notNullable();
     table.string('whatsapp').notNullable();
-    table.string('facebook').notNullable();
-    table.string('instagram').notNullable();
-    table.string('site').notNullable();
+    table.string('facebook');
+    table.string('instagram');
+    table.string('site');
   })
 };
 
